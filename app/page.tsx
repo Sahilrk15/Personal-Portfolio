@@ -12,7 +12,15 @@ export default function Home() {
       {/* Header */}
       <header className="sticky top-0 z-40 w-full border-b border-zinc-800 glass-effect">
         <div className="container flex h-16 items-center justify-between">
-          <div className="font-bold text-xl text-white">Sahil Kadbhane</div>
+          {/* logo and site title */}
+          <Link href="/" className="flex items-center gap-2">
+           <img 
+        src="/SK_logo.png" 
+        alt="Logo" 
+        className="w-10 h-10 rounded-full" 
+      />
+      <span className="font-bold text-xl text-white">Sahil Kadbhane</span>
+          </Link>
           <nav className="hidden md:flex items-center gap-6">
              <Link href="#about" className="text-sm font-medium text-zinc-400 transition-colors hover:text-primary">
               About
