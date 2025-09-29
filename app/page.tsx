@@ -263,12 +263,12 @@ export default function Home() {
                 tags={["HTML", "CSS",]}
                 link="https://github.com/Sahilrk15/Metalink-NFT-Website.git"
               />
-              <ProjectCard
+              {/* <ProjectCard
                 title=""
                 description=""
                 tags={["Next.js", "Tailwind CSS", "Framer Motion", "HeadlessUI", "ImageResponse", "TypeScript", "Prettier", "ESLint", "React Webcam", "OpenAI API", "REST API"]}
                 link=""
-              />
+              /> */}
               
             </div>
             <div className="flex justify-center pt-6">
