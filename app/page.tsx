@@ -19,7 +19,7 @@ export default function Home() {
         alt="Logo" 
         className="w-10 h-10 rounded-full" 
       />
-      <span className="font-bold text-xl text-white">Sahil Kadbhane</span>
+      {/* <span className="font-bold text-xl text-white">Sahil Kadbhane</span> */}
           </Link>
           <nav className="hidden md:flex items-center gap-6">
              <Link href="#about" className="text-sm font-medium text-zinc-400 transition-colors hover:text-primary">
