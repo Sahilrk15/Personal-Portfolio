@@ -260,6 +260,12 @@ export default function Home() {
                 link="https://github.com/Sahilrk15/Emotion-Detection-System.git"
               />
               <ProjectCard
+                title="E-Voting Android App"
+                description=" Increased voter participation by 40% and improved efficiency by 25%. Designed a secure voting platform with SSL encryption and real-time results."
+                tags={["Android, PHP, MySQL, SDK, XML, SSL"]}
+                link="https://drive.google.com/file/d/1wGQkxkXhLyfygc4MA1PKJtgQO0f_VjG1/view?usp=drive_link"
+              />
+              <ProjectCard
                 title="Food Delivery Website"
                 description="Implemented an food delivery service website."
                 tags={["HTML", "CSS", "Front-End"]}
