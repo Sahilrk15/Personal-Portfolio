@@ -176,7 +176,7 @@ export default function Home() {
                 period="Oct 2025 - Present"
                 companyUrl="https://freemycost.com/"
                 description=" Developing scalable backend and full-stack components for a social commerce platform, focusing on clean architecture, performance, and reliability. Implementing RESTful APIs and application logic using strong data structures and object-oriented programming principles. Collaborating in code reviews, debugging, and cloud deployments, following industry-standard software engineering practices."
-                logo=""
+                logo="/images/FMC_logo.webp"
               />
               <ExperienceItem
                 title="Data Science & Machine Learning Intern"
