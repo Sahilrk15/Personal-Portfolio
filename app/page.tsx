@@ -171,15 +171,23 @@ export default function Home() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">Experience</h2>
             <div className="space-y-6">
               <ExperienceItem
+                title="Software Development Engineer Intern (Full Stack / AI-ML) "
+                company="FreeMyCost.com"
+                period="Oct 2025 - Present"
+                companyUrl="https://freemycost.com/"
+                description=" Developing scalable backend and full-stack components for a social commerce platform, focusing on clean architecture, performance, and reliability. Implementing RESTful APIs and application logic using strong data structures and object-oriented programming principles. Collaborating in code reviews, debugging, and cloud deployments, following industry-standard software engineering practices."
+                logo=""
+              />
+              <ExperienceItem
                 title="Data Science & Machine Learning Intern"
                 company="Zaalima Development"
-                period="Aug 2025 - Present"
+                period="Aug 2025 - Nov 2025"
                 companyUrl="https://zaalima.in/"
                 description="Building ML models at Zaalima Development to drive efficiency and accuracy, achieving 30% faster workflows and reducing prediction errors by 25%. Engineering AI-driven solutions that boosted user engagement and supported measurable growth in active users."
                 logo="/images/zaalimadev_logo.jpeg"
               />
               <ExperienceItem
-                title="Web Development Intern"
+                title="Software Development Engineer Intern"
                 company="D-Soft Technology"
                 companyUrl=""
                 period="Feb 2023 – Mar 2023"
