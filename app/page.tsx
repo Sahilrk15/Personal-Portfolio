@@ -173,7 +173,7 @@ export default function Home() {
               <ExperienceItem
                 title="Software Development Engineer Intern (Full Stack / AI-ML) "
                 company="FreeMyCost.com"
-                period="Oct 2025 - Present"
+                period="Oct 2025 - Apr 2026"
                 companyUrl="https://freemycost.com/"
                 description=" Developing scalable backend and full-stack components for a social commerce platform, focusing on clean architecture, performance, and reliability. Implementing RESTful APIs and application logic using strong data structures and object-oriented programming principles. Collaborating in code reviews, debugging, and cloud deployments, following industry-standard software engineering practices."
                 logo="/images/FMC_logo.jpeg"
@@ -243,6 +243,24 @@ export default function Home() {
           <div className="space-y-8">
              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">Projects</h2>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <ProjectCard
+                title="PayBridge"
+                description="• Worked on a payment gateway simulator with mock card, UPI and netbanking rails. Set up and tested merchant API keys, payments, settlements, payouts and refunds."
+                tags={["Python", "Django", "FastAPI", "Node.js", "Go", "React", "REST APIs", "PostgreSQL", "Microservices"]}
+                link="https://github.com/Sahilrk15/paybridge.git"
+              />
+              <ProjectCard
+                title="SubLedger"
+                description="Built a subscription billing backend covering plans, customers, invoices, payments and a ledger. Applied repository and service-layer design with rules enforced in services and DB constraints. "
+                tags={["Python", "FastAPI", "SQLAlchemy", "PostgreSQL", "Docker", "REST APIs", "Pytest"]}
+                link="https://github.com/Sahilrk15/Subledger.git"
+              />
+              <ProjectCard
+                title="PulseNotify"
+                description="Built a backend system that monitors flight prices and sends alerts to users when prices change. Followed a layered backend architecture with separate API, service and data layers. "
+                tags={["Python", "REST APIs", "Backend Development", "Low-Level Design"]}
+                link="https://github.com/Sahilrk15/pulsenotify-.git"
+              />
               <ProjectCard
                 title="Resumind"
                 description="An enterprise-ready AI-powered Applicant Tracking System (ATS) that matches resumes to job postings with real-time feedback and suggestions. Built with React, serverless architecture, and AI/NLP models for resume parsing, scoring, and improvement tips, ensuring scalable, intelligent hiring."
