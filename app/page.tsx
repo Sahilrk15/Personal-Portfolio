@@ -42,7 +42,7 @@ export default function Home() {
             </Link>
           </nav>
           <Button className="bg-primary hover:bg-primary/90 text-white" asChild>
-                  <Link href="/Sahil Kadbhane Resume 2.pdf">
+                  <Link href="/Sahil_Kadbhane_Resume_Updated.pdf">
                     Resume
                   </Link>
           </Button>
@@ -245,7 +245,7 @@ export default function Home() {
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
                 title="PayBridge"
-                description="• Worked on a payment gateway simulator with mock card, UPI and netbanking rails. Set up and tested merchant API keys, payments, settlements, payouts and refunds."
+                description="Worked on a payment gateway simulator with mock card, UPI and netbanking rails. Set up and tested merchant API keys, payments, settlements, payouts and refunds."
                 tags={["Python", "Django", "FastAPI", "Node.js", "Go", "React", "REST APIs", "PostgreSQL", "Microservices"]}
                 link="https://github.com/Sahilrk15/paybridge.git"
               />
